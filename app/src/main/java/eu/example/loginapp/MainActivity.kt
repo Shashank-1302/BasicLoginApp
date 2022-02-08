@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity() {
         }
         loginbutton.setOnClickListener {
             val vibratorService = getSystemService(Context.VIBRATOR_SERVICE) as Vibrator
-            vibratorService.vibrate(30)
+            vibratorService.vibrate(50)
             if(name.getText().toString().equals("") && pass.getText().toString().equals("")){
                 Toast.makeText(this@MainActivity, "enter and try again", Toast.LENGTH_SHORT).show()
             }
