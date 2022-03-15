@@ -11,7 +11,7 @@
     <TextView
         android:id="@+id/SignIn"
         android:layout_width="match_parent"
-        android:layout_height="82dp"
+        android:layout_height="85dp"
         android:text="Sign in"
         android:textColor="@color/white"
         android:textStyle="bold"
